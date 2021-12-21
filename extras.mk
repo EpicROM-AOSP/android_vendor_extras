@@ -19,4 +19,9 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Includes icon packs/shapes
 include vendor/extras/icons/icons.mk
 
+ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    UdfpsResources
+endif
+
 
