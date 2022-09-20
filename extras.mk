@@ -56,18 +56,30 @@ PRODUCT_PACKAGES += \
     
 # Icon shapes
 PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCloudyRoundedOverlay \
     IconShapeCylinderOverlay \
+	IconShapeCylinderRoundedOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeFlowerRoundedOverlay \
     IconShapeHeartOverlay \
+	IconShapeHeartRoundedOverlay \
     IconShapeHexagonOverlay \
+	IconShapeLeafRoundedOverlay \
+    IconShapePebbleRoundedOverlay \
     IconShapeLeafOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedHexagonOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
+	IconShapeStretchedOverlay \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
+	IconShapeVesselOverlay \
+    RohieIconMeowOverlay \
+    DefaultButSquareOverlay \
+    RiceBallsOverlay
     
 # Statusbar Icons
 PRODUCT_PACKAGES += \
@@ -110,7 +122,6 @@ PRODUCT_PACKAGES += \
 	
 # QS Panel
 PRODUCT_PACKAGES += \
-    QSRoundedRectangle \
     QSOutline \
     QSTwoToneAccent	
 
