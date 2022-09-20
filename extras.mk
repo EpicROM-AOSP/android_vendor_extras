@@ -107,6 +107,12 @@ PRODUCT_PACKAGES += \
 	WeedWiFiOverlay \
 	XperiaWiFiOverlay \
 	ZigZagWiFiOverlay
+	
+# QS Panel
+PRODUCT_PACKAGES += \
+    QSRoundedRectangle \
+    QSOutline \
+    QSTwoToneAccent	
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/extras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
