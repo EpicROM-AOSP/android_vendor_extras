@@ -111,6 +111,18 @@ PRODUCT_PACKAGES += \
     InsideSignalOverlay \
     BarsSignalOverlay
 
+# Lockscreen clock fonts
+PRODUCT_PACKAGES += \
+    ClockFontAlienLeagueOverlay \
+    ClockFontBalticBoddenOverlay \
+    ClockFontBalticStormOverlay \
+    ClockFontBigNoodleTiltingOverlay \
+    ClockFontMXWasgardOverlay \
+    ClockFontProdeltCoOverlay \
+    ClockFontRoadRageOverlay \
+    ClockFontTourneyMediumOverlay \
+    ClockFontZeroFourOverlay
+    
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     StrokeWiFiOverlay \
