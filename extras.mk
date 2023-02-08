@@ -123,7 +123,13 @@ PRODUCT_PACKAGES += \
 # QS Panel
 PRODUCT_PACKAGES += \
     QSOutline \
-    QSTwoToneAccent	
+    QSTwoToneAccent \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin	
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/extras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
