@@ -21,57 +21,69 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extras/overlay/common
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
+# Clock Fonts
+PRODUCT_PACKAGES += \
+    ClockFontAccuratistOverlay \
+    ClockFontApiceOverlay \
+    ClockFontAudimatOverlay \
+    ClockFontBariolOverlay \
+    ClockFontCoconOverlay \
+    ClockFontComfortaaOverlay \
+    ClockFontComicSansOverlay \
+    ClockFontCoolstoryOverlay \
+    ClockFontExotwoOverlay \
+    ClockFontEvolveSansOverlay \
+    ClockFontFluidSansOverlay \
+    ClockFontGoogleSansOverlay \
+    ClockFontGeometosOverlay \
+    ClockFontHarmonySansOverlay \
+    ClockFontJTLeonorOverlay \
+    ClockFontLinotteOverlay \
+    ClockFontMiSansOverlay \
+    ClockFontNokiaPureOverlay \
+    ClockFontNothingDotHeadlineOverlay \
+    ClockFontOneplusSansOverlay \
+    ClockFontOneplusSlateOverlay \
+    ClockFontOppoSansOverlay \
+    ClockFontProductSansVHOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRosemaryOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSanFranciscoDisplayProSourceOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSimpleDaySourceOverlay \
+    ClockFontSonySketchOverlay	
+
 # Fonts
     fonts_customization.xml \
     FontAccuratistOverlay \
-    FontAclonicaOverlay \
-    FontAmaranteOverlay \
-    FontApiceOverlay \
-    FontAudimatOverlay \
     FontBariolOverlay \
-    FontCagliostroOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
     FontComicSansOverlay \
     FontCoolstoryOverlay \
     FontExotwoOverlay \
     FontEvolveSansOverlay \
-    FontEvoSansOverlay \
-    FontFifa2018Overlay \
     FontFluidSansOverlay \
     FontGoogleSansOverlay \
-    FontGoogleSansClockOverlay \
-    FontGeometosOverlay \
-    FontGrandHotelOverlay \
     FontHarmonySansOverlay \
-    FontInterSourceOverlay \
     FontJTLeonorOverlay \
-    FontLatoOverlay \
-    FontLGSmartGothicOverlay \
     FontLinotteOverlay \
     FontMiSansOverlay \
     FontNokiaPureOverlay \
     FontNothiingDotOverlay \
     FontNothingDotHeadlineOverlay \
-    FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
     FontOppoSansOverlay \
-    FontOswaldOverlay \
     FontProductSansVHOverlay \
-    FontQuandoOverlay \
-    FontRedressedOverlay \
-    FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
     FontRosemaryOverlay \
     FontRubikOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
     FontSimpleDaySourceOverlay \
-    FontSonySketchOverlay \
-    FontStoropiaOverlay \
-    FontSurferOverlay \
-    FontUbuntuOverlay
+    FontSonySketchOverlay
 
 # Icon shapes
 PRODUCT_PACKAGES += \
