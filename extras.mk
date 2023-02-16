@@ -102,14 +102,23 @@ PRODUCT_PACKAGES += \
 
 # Statusbar Icons
 PRODUCT_PACKAGES += \
-    StrokeSignalOverlay \
-    SneakySignalOverlay \
-    XperiaSignalOverlay \
-    ZigZagSignalOverlay \
-    WavySignalOverlay \
-    RoundSignalOverlay \
-    InsideSignalOverlay \
-    BarsSignalOverlay
+	AcherusSignalOverlay \
+	AquariumSignalOverlay \
+	BarsSignalOverlay \
+	DeepSignalOverlay \
+	DoraSignalOverlay \
+	HuaweiSignalOverlay \
+	IosSignalOverlay \
+	InsideSignalOverlay \
+	OutlineSignalOverlay \
+	PillsSignalOverlay \
+	PUISignalOverlay \
+	RoundSignalOverlay \
+	SneakySignalOverlay \
+	StrokeSignalOverlay \
+	WavySignalOverlay \
+	XperiaSignalOverlay \
+	ZigZagSignalOverlay
 
 # Lockscreen clock fonts
 PRODUCT_PACKAGES += \
