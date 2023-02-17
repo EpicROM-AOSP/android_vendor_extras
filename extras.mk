@@ -19,7 +19,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/extras/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extras/overlay/common
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+    $(call find-copy-subdir-files,*,vendor/extras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    $(call find-copy-subdir-files,*,vendor/extras/prebuilt/product/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 # Clock Fonts
 PRODUCT_PACKAGES += \
