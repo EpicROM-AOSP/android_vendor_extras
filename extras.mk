@@ -59,6 +59,7 @@ PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontAccuratistOverlay \
     FontBariolOverlay \
+    FontCagliostroSourceOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
     FontComicSansOverlay \
